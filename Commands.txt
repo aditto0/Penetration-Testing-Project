@@ -1,0 +1,63 @@
+Extracted Commands 
+====================================
+
+
+================================================================================
+PDF 1:Web Application Reconnaissance
+================================================================================
+
+----------------------------------------
+whois google.com
+
+nslookup -type=mx seu.edu.bd
+
+dig google.com
+
+nslookup -type=ns google.com
+
+wafw00f -l
+
+wafw00f seu.edu.bd
+
+whatweb seu.edu.bd
+
+whatweb -v -a 3 seu.edu.bd
+
+
+
+================================================================================
+PDF 2: Penetration Testing Project
+================================================================================
+
+meterpreter > arp
+
+msf6 > use post/multi/recon/local_exploit_suggester
+
+Module path:
+post/multi/recon/local_exploit_suggester
+
+meterpreter > getsystem
+
+msf > use exploit/windows/smb/psexec
+
+Module path:
+exploit/windows/smb/psexec
+
+msf > use auxiliary/scanner/portscan/tcp
+
+Module path:
+auxiliary/scanner/portscan/tcp
+
+
+john password1.txt
+
+john hash1.txt --wordlist=password1.txt
+
+hydra ssh://192.168.235.134 -L user.txt -P pass.txt -V -f -t 4
+
+Vhttp.request.method == "POST"
+
+application/x-www-form-urlencoded
+
+Follow TCP Stream
+
