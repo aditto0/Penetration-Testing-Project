@@ -105,9 +105,6 @@ STOR
 - ARP traffic interpretation
 - FTP session reconstruction using TCP stream following
 
-## Suggested GitHub Usage
-
-Before publishing this repository, review the source PDFs and remove any personal, institutional, or target-specific information that should not be public. Keep this repository as an educational reference and clearly document that all testing must be performed only with authorization.
 
 ## Disclaimer
 
